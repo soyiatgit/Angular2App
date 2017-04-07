@@ -1,0 +1,21 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+.header{
+    height:70px;
+    background-color:#eee;
+}
+.nav_link{
+    position :relative;
+    top:50px;
+    font-size:16px;
+    padding : 0px 10px;
+}
+.parentDiv{
+min-height : 100px;
+}
+.childDiv{
+min-height : 100px;
+}

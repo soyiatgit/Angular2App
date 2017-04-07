@@ -1,0 +1,19 @@
+<div class="container">
+    <div ng-class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12" *ngFor="let person of users">
+            <div class="person_block" [hover]="'blue'">
+                <div class="person_image"></div>
+                <div class="person_info">
+                    <p>{{person.personal.name}}</p>
+                    <p>{{person.personal.age}}</p>
+                    <p>{{person.profession}}</p>
+                    <p>{{person.role}}</p>
+                    <p>{{person.hobby}}</p>
+                </div>
+                <div (click) ="onEdit(person)" class="edit_info">
+                    Edit
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

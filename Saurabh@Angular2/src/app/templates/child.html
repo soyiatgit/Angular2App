@@ -1,0 +1,6 @@
+
+<div class="childDiv col-lg-6 col-md-12 col-xs-12 col-sm-12">
+    <ul>
+        <li class="childText" *ngFor="let entry of childDataPassedFromParents"><button class="btn btn-primary" (click)="onChildClick(entry)">{{entry}}</button></li>
+    </ul>
+</div>
